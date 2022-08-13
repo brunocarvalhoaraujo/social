@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('./dependencias/all.css');
+
+:root{
+    --cor-fundo-1: #18191A;
+    --cor-fundo-2: #242526;
+    --cor-fundo-3: #303031;
+
+
+    --cor1: #121212;
+    --cor2:#08FF77;
+    --cor3: #57C145;
+}
+*{
+    font-family: 'ubuntu';
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    /* background-color: red; */
+    width: 100vw;
+    height: 100vh;
+}
+.painel{
+    height: 100vh;
+    width: 100vw;
+
+}
+    .painel-top{
+        /* background-color: #08FF77; */
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .painel-top .splach{
+            /* background-color: #18191A; */
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 20px;
+            left: 40px;
+            animation: 1s splach infinite;
+        }
+            @keyframes splach{
+                0%{
+                    transform: scale(1.1);
+                }
+                50%{
+                    transform: scale(1.2);
+                }
+                100%{
+                    transform: scale(1.1);
+                }
+
+            }
+            @media only screen and (max-width: 768px){
+                .painel-top .splach{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+
+            .painel-top .splach img{
+                height: 100%;
+            }
+            .painel-top .splach p{
+                position: absolute;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+            }
+            @media only screen and (max-width: 768px){
+                .painel-top .splach p{
+                    font-size: 15px;
+                }
+            }
+
+    .painel-top .logo-mercado{
+        width: 10%;
+        height: 10%;
+        /* background-color: red; */
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+        .painel-top .logo-mercado img{
+            height: 100%;
+            animation: 2s logo-mercado;
+        }
+        @keyframes logo-mercado {
+            0%{
+                transform: rotate(360deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+
+    .painel-top .img-do-produto{
+        height: 80%;
+        width: 80%;
+        max-height: 500px;
+        max-width: 500px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    } 
+        .painel-top .img-do-produto img{
+            max-height: 100%;
+            max-width: 100%;
+            animation: 2s img-produto;
+        }
+        @keyframes img-produto {
+            0%{
+                filter: grayscale(1);
+            }
+            100%{
+                filter: grayscale(0);
+            }
+        }
+
+    .painel-botoom{
+        background-color: var(--cor3);
+        /* background-color: red; */
+        height: 40vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .painel-botoom .nome-produto{
+            margin-top: 15px;
+            height: 30%;
+            max-height: 150px;
+            width: 70vw;
+            /* background-color: #08FF77; */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-size: 4.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        @media only screen and (max-width: 768px){
+            .painel-botoom .nome-produto{
+                font-size: 3rem;
+            }
+        }
+        .painel-botoom .mais-informacoes-produto{
+            margin-top: 10px;
+            height: 55px;
+            width: 80vw;
+            /* background-color: red; */
+            justify-content: center;
+            align-items: top;
+            display: flex;
+            color: white;
+            font-size: 2.5rem;
+        }   
+        .painel-botoom .preco-produto{
+            /* background-color: #08FF77; */
+            /* height: 65px; */
+            width: 70vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+            .painel-botoom .preco-produto .rs{
+                /* background-color: red; */
+                height: 100%;
+                width: auto;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                font-size: 30px;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+            .painel-botoom .preco-produto .digitos{
+                height: 100%;
+                width: auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-end;
+                font-size: 75px;
+                font-weight: bold;
+                /* background-color: aqua; */
+            }
+            @media only screen and (max-width: 768px){
+                .painel-botoom .preco-produto .digitos{
+                    font-size: 60px;
+                }
+            }
+            .painel-botoom .preco-produto .qtd{
+                /* background-color: aquamarine; */
+                height: 100%;
+                width: auto;
+                /* width: auto; */
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                font-size: 17px;
+                /* font-weight: bold; */
+            }
+
+        .painel-botoom .roda-pe{
+            /* background-color: #08FF77; */
+            height: 40px;
+            width: 90%;
+            position: absolute;
+            bottom: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+        }
+        .painel-botoom .qrcode{
+            background-color: white;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            z-index: 999;
+            bottom: 5px;
+            right: 5px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }   
+            .painel-botoom .qrcode img{
+                height: 90%;
+            }
+
+
+

@@ -1,0 +1,119 @@
+.templateModalEditProduto{
+    background-color: var(--cor-fundo-1);
+    /* background-color: seagreen; */
+    height: 90vh;
+    width: 80vw;
+    max-height: 600px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 46px -2px black;
+    border-radius: 5px;
+    color: white;
+}
+    .fechar{
+        background-color: var(--cor2);
+        border: 1px solid transparent;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        z-index: 999;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .fechar:hover{
+        background-color: red;
+        cursor: pointer;
+
+    }
+    .headCadastrarProduto{
+        height: 45px;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 10px;
+        /* background-color: red; */
+    }
+        .headCadastrarProduto h2{
+            font-size: 17px;
+        }
+
+    .templateModalEditProduto form{
+        /* background-color: royalblue; */
+        height: 90%;
+        width: 90%;
+        margin-top: 10px;
+        overflow-y: auto;
+    }
+        .boxPreviewIMG{
+            height: 80px;
+            width: 100%;
+            /* background-color: violet; */
+            justify-content: center;
+            display: flex;
+        }
+            .boxPreviewIMG img{
+                height: 100%;
+            }
+        .inputEditProduto{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+            .inputEditProduto label{
+                position: absolute;
+                top: -6px;
+                font-size: 13px;
+                color: var(--cor2);
+                background-color: var(--cor-fundo-1);
+            }
+            .inputEditProduto input{
+                height: 30px;
+                background-color: transparent;
+                border: 0 none;
+                border-bottom: 1px solid var(--cor2);
+                color: white;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-left: 5px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .inputEditProduto input:focus{
+                color: white;
+                outline: 0 none;
+            }
+            .inputEditProduto input[type="file"]{
+                /* background-color: red; */
+                padding-top: 10px;
+                border: none;
+            }
+    .templateModalEditProduto form button{
+        width: 100%;
+        height: 45px;
+        margin-top: 40px;
+        background-color: var(--cor2);
+        border: 0 none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .apagarProduto{
+        text-align: center;
+        color: red;
+        cursor: pointer;
+        font-size: 10px;
+        margin-bottom: 20px;
+        /* background-color: royalblue; */
+        width: 50px;
+        padding: 2px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid red;
+    }

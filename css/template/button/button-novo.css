@@ -1,0 +1,15 @@
+.button-novo{
+    height: 50px;
+    width: 50px;
+    background-color: var(--cor1);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70px;
+    right: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+}

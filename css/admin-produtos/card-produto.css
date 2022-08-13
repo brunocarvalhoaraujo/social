@@ -1,0 +1,53 @@
+.templateBoxProduto{
+    height: 160px;
+    width: 120px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cor-fundo-3);
+    position: relative;
+    animation: cards 2s;
+}
+    @keyframes cards{
+        0%{
+            transform: translateY(-5px);
+        }
+        50%{
+            transform: translateY(5px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+
+.templateBoxProduto:hover{
+    border: 2px solid var(--cor1);
+    cursor: pointer;
+}
+    .templateBoxProduto img{
+        height: 60px;
+    }
+    .boxDadosProduto{
+        /* background-color: tomato; */
+        margin-top: 5px;
+        max-width: 85%;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        .boxDadosProduto p{
+            font-size: 12px;
+            color: black;
+        }
+        .--card-bold{
+            font-size: 6px;
+            font-weight: bold;
+        }

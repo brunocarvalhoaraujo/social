@@ -1,0 +1,169 @@
+.menu-leteral{
+    height: 100vh;
+    width: 50vw;
+    max-width: 350px;
+    background-color: var(--cor-fundo-1);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    box-shadow: -29px -4px 48px -15px rgba(0,0,0,0.75);
+    z-index: 9999999;
+    user-select: none;
+}
+    .menu-leteral .fechar{
+        background-color: var(--cor-fundo-2);
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        color: white;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        
+    }
+    .menu-leteral .fechar:hover{
+        color: red;
+        font-size: 18px;
+        background-color: var(--cor-fundo-3);
+    }
+    .menu-leteral .header{
+        width: 100%;
+        height: 10%;
+        min-height: 60px;
+        background-color: var(--cor-fundo-2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .menu-leteral .header .container{
+            /* background-color: tomato; */
+            width: 90%;
+            height: 90%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        } 
+            .menu-leteral .header .container .box{
+                /* background-color: aqua; */
+                position: relative;
+            }
+            .menu-leteral .header .container .box p:nth-child(2){
+                /* background-color: brown; */
+                /* position: absolute; */
+                max-width: 40px;
+                margin-top: 5px;  
+            }
+            .menu-leteral .header .container .box p:nth-child(2):hover{
+                color: red;
+            }
+
+        .menu-leteral .header .container img{
+            height: 45px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .menu-leteral .header .container a{
+            color: #ee5808;
+        }
+
+        .menu-leteral .header .container p{
+            font-size: 15px;
+            color: white;
+        }
+
+    .menu-leteral .body{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        background-color: var(--cor-fundo-2);
+        display: flex;
+        flex-direction: column;
+        /* background-color: salmon; */
+    }  
+    .menu-leteral .body .title{
+        /* background-color: violet; */
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+        .menu-leteral .body .title .container{
+            width: 90%;
+            height: 90%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            /* background-color: tomato; */
+        }
+            .menu-leteral .body .title .container p{
+                color: #ee5808;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+    .menu-leteral .body .btnOption{
+        background-color: var(--cor-fundo-2);
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-leteral .body .btnOption:hover{
+        background-color: var(--cor-fundo-3);
+        cursor: pointer;
+    }
+        .menu-leteral .body .btnOption .container{
+            width: 90%;
+            /* background-color: royalblue; */
+        }
+            .menu-leteral .body .btnOption .container p{
+                color: white;
+                font-size: 14px;
+            }
+
+    .menu-leteral .footer{
+        background-color: var(--cor-fundo-2);
+        bottom: 0px;
+        height: 10%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: absolute;
+    }  
+        .menu-leteral .footer .container{
+            width: 90%;
+            height: 90%;
+            /* background-color: salmon; */
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+            .menu-leteral .footer .container .boxIMG{
+                /* width: 20%; */
+                margin-right: 10px;
+                /* background-color: red; */
+
+            }
+                .menu-leteral .footer .container .boxIMG img{
+                    height: 35px;
+                    filter: grayscale(1);
+                    opacity: 0.8;
+                }
+
+            .menu-leteral .footer .container .boxTXT{
+                /* background-color: royalblue; */
+                font-size: 10px;
+                color: rgb(255, 255, 255);
+            }
+
+
+

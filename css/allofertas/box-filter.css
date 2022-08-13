@@ -1,0 +1,49 @@
+.box-filter{
+    /* background-color: aqua; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .buscar{
+        /* background-color: turquoise; */
+        width: 95%;
+        max-width: 1300px;
+        margin-top: 5px;
+    }
+        .buscar form{
+            width: 100%;
+            display: flex;
+        }
+        .buscar input{
+            height: 40px;
+            border-radius: 5px ;
+            width: 100%;
+            border: 0 none;
+            background-color: var(--cor-fundo-2);
+            color: white;
+            padding-left: 9px;
+            margin-right: 5px;
+        }
+        .buscar input:focus{
+            outline: 0 none;
+            color: white;
+        }
+        .buscar input:nth-child(1){
+            width: 50%;
+            background-color: violet;
+        }
+        /* parte do input da cidade */
+        .buscar select{
+            border: 0 none;
+            color: white;
+            background-color: var(--cor-fundo-2);
+            /* background-color: red; */
+            
+        }
+        .buscar select:nth-child(2){
+            width: 45%;
+            margin-right: 5px;
+            margin-left: 5px;
+            /* background-color: red; */
+        }

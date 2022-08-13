@@ -1,0 +1,43 @@
+.boxLista{
+    /* background-color: tomato; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .title{
+        /* background-color: turquoise; */
+        width: 90%;
+        margin-top: 10px;
+    }
+        .title p{
+            font-weight: bold;
+            color: var(--cor1);
+            font-size: 12px;
+        }
+        .title p a{
+            text-decoration: none;
+            color: var(--cor1);
+            font-size: 12px;
+        }
+        
+
+            
+    .boxListaCards{
+        margin-top: 20px;
+        height: 100%;
+        width: 90%;
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        overflow-y: auto;
+    }
+
+
+
+
+

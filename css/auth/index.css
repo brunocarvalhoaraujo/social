@@ -1,0 +1,25 @@
+@import url('../main.css');
+@import url('boxAuth.css');
+@import url('../template/alert/templateAlert.css');
+
+body{
+    background-color: var(--cor1);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'ubuntu';
+}
+
+#myAlert{
+    position: absolute;
+    top:20%;
+    right: 15px;
+    z-index: 999;
+}

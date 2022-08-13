@@ -1,0 +1,40 @@
+@import url('../main.css');
+@import url('../template/nav/nav-menu.css');
+@import url('./buscar.css');
+@import url('./modal-cadastrar-produto.css');
+@import url('./modal-editar-produto.css');
+@import url('../template/alert/templateAlert.css');
+@import url('./box-listar-produtos.css');
+@import url('./card-produto.css');
+@import url('../template/button/button-novo.css');
+@import url('../template/menu-lateral.css');
+
+@import url('./Card.css');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor-fundo-1);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    height: 100vh;
+    width: 100vw;
+}
+
+.myAlert{
+    position: absolute;
+    top: 120px;
+    right: 20px;    
+}
+
+.myModal{
+    position: absolute;
+}

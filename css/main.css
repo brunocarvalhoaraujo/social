@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('./dependencias/all.css');
+
+:root{
+    --cor-fundo-1: #18191A;
+    --cor-fundo-2: #242526;
+    --cor-fundo-3: #303031;
+
+
+    --cor1: #121212;
+    --cor2:#08FF77;
+    --cor3: #57C145;
+}
+*{
+    font-family: 'ubuntu';
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cor2);
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: var(--cor2);
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: var(--cor2);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

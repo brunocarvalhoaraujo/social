@@ -1,0 +1,82 @@
+.nav-menu{
+    background-color: var(--cor-fundo-2);
+    /* border-bottom: 1px solid rgb(219, 213, 213); */
+    width: 100%;
+    height: 10%;
+    max-height: 70px;
+    min-height: 50px;
+    /* position: absolute; */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    .container__nav{
+        /* background-color: tomato; */
+        width: 95%;
+        max-width: 1300px;
+        height: 90%;
+        display: flex;
+    }
+        .nav__logo{
+            /* background-color: tomato; */
+            width: 50%;
+            height: 100%;
+            justify-content: start;
+            align-items: center;
+            display: flex;
+        }
+        .nav__logo img{
+            height: 35px;
+            margin-right: 10px;
+        }
+
+        .container__nav .boxMenu{
+            width: 100%;
+            height: 100%;
+            /* background-color: tomato; */
+            justify-content: flex-end;
+            align-items: center;
+            display: flex;
+        }
+            .container__nav .boxMenu .btn{
+                width: 40px;
+                height: 40px;
+                background-color: var(--cor-fundo-2);
+                border-radius: 50%;
+                /* background-color: red; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                animation: 0.5s btnMenu;
+                position: relative;
+                filter: grayscale(1);
+            }
+            @keyframes btnMenu{
+                0%{
+                    transform: rotate(5deg);
+                    filter: grayscale(1);
+                }
+                100%{
+                    transform: rotate(-10deg);
+                    filter: grayscale(0);
+                }
+            }
+            .container__nav .boxMenu .btn:hover{
+                background-color: var(--cor-fundo-3);
+                filter: grayscale(0);
+            }
+                .container__nav .boxMenu .btn p{
+                    color: white;
+                    position: absolute;
+                    left: -30px;
+                    font-size: 12px;
+                }
+                .container__nav .boxMenu .btn img{
+                    height: 25px;
+                }
+
+
+

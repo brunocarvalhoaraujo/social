@@ -1,0 +1,28 @@
+@import url('../main.css');
+@import url('../template/nav/nav-menu.css');
+@import url('box-all-Ofertas.css');
+@import url('rowCards.css');
+@import url('boxInfoMercado.css');
+@import url('card-oferta.css');
+@import url('boxRenderCards.css');
+@import url('box-filter.css');
+@import url('templateNaoEncontrei.css');
+
+@import url('../template/menu-lateral.css');
+*{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+body{
+    background-color: var(--cor-fundo-1);
+    /* color: white; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: tomato; */
+}
+.app{
+    height: 100vh;
+    width: 100vw;
+}

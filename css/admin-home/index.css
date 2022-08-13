@@ -1,0 +1,31 @@
+@import url('../main.css');
+@import url('../template/nav/nav-menu.css');
+@import url('./box-listar-produtos.css');
+@import url('./card-router.css');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor-fundo-1);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+}
+
+.myAlert{
+    position: absolute;
+    top: 120px;
+    right: 20px;    
+}
+
+.myModal{
+    position: absolute;
+}

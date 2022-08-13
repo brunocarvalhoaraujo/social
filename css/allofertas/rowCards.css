@@ -1,0 +1,20 @@
+.rowCards{
+    width: 100%;
+    height: 250px;
+    /* background-color: var(--cor-fundo-2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* background-color: black; */
+}
+    .card-container{
+        width: 95%;
+        max-width: 1300px;
+        height: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
