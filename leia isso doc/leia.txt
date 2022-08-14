@@ -1,0 +1,20 @@
+
+
+ --- XMLhttpXmlResquest, PHP PDO e css 
+
+
+
+
+./social/explore ---------------     veja as ofertas de algums mercados da sua regiao  
+
+./social/painel/ ---------------     bota pra rodar as ofertas do mercado id=""  para ficar em loop (painel de tv) 
+
+./social/admin-produtos/        CRUD PARA produtos  
+./social/admin-ofertas/         CRUD PARA ofertas
+./social/auth/			autentica no app
+
+
+banco de dados!
+criar um banco como o nome socialprice e importe o arquivos .sql da raiz do projeto
+usuario root
+senha root
